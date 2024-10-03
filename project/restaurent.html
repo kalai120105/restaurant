@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant webpage</title>
+    <link rel="stylesheet" href="restaurent.css">
+</head>
+<body >
+    <div>
+    <h3>Share a Meal</h3>
+    <hr>
+    <form action="/form/submit" method="GET"> 
+      <input  type="text" name="text" class="search" placeholder="Search here!">
+      <input  type="submit" name="submit" class="submit" value="Search">
+    </form>
+    <div>
+
+      <div class="img-logo1" class="profile-container">
+        <img class="img-logo1" src="https://tse1.mm.bing.net/th?id=OIP.8pQGc1uvCGFkeniunEv1rwHaHa&pid=Api&P=0&h=180" alt="Profile Image" class="profile-image" id="profileImage"><br>
+        <div id="profilePage" class="profile-page"><br>
+            <h2>Kalaiselvi S</h2>
+            <p>Email:kalai@gmail.com</p>
+            <p>Location:Tirunelveli</p>
+            <p>contact : 7904775083</p>
+            <p>Address:4/20, Bye Road ,<br>Tirunelveli</p>
+            <button onclick="document.location='login page.html'" class="btn">Log out</button>
+        </div>
+        <img class="img-logo2" src="https://tse2.mm.bing.net/th?id=OIP.hd6cAKPAERPHDbVUFWRbyAHaHa&pid=Api&P=0&h=180" alt="cart">
+    </div>
+    <!--
+      <img class="img-logo1" src="https://tse1.mm.bing.net/th?id=OIP.8pQGc1uvCGFkeniunEv1rwHaHa&pid=Api&P=0&h=180" alt="profile">
+      <img class="img-logo2" src="https://tse2.mm.bing.net/th?id=OIP.hd6cAKPAERPHDbVUFWRbyAHaHa&pid=Api&P=0&h=180" alt="cart">
+     -->
+    </div>
+
+    <script>
+      
+      const profileImage = document.getElementById('profileImage');
+      const profilePage = document.getElementById('profilePage');
+
+      
+      profilePage.style.display = 'none';
+
+      
+      profileImage.addEventListener('click', function () {
+          profilePage.style.display = 'block';
+      });
+
+    
+      profilePage.addEventListener('click', function () {
+          profilePage.style.display = 'none';
+      });
+  </script>
+
+    
+    
+
+       <div class="img-container" >
+          <h2>Best offers for you</h2>
+            <div  class="image">
+              <a href="offers2.html"><img class="image" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_850,h_504/rng/md/carousel/production/0bb309f06b88bc69bf7cca7ac03ce11c"></a>
+              <a href="offers3.html"><img class="image" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_850,h_504/rng/md/carousel/production/bacfa330da4d140c4c049d8beed9fdd6"></a>
+              </div>
+
+            <h2>MENU</h2>
+         <div class="mind">
+             <div class="mind-box">
+                  <a href="cart2.html"><img class="mind-img" src="./image/idly.jpg"></a>
+                  <h4 style="text-align: center;">idly</h4>
+                </div>
+
+       <div class="mind-box" >
+           <a href="cart.html"><img class="mind-img" src="./image/dosa.jpg"></a>
+    <h4 style="text-align: center;"> dosa</h4>
+           </div>
+
+     <div class="mind-box">
+         <a href="cart3.html"><img class="mind-img" src="./image/ice cream.jpg"></a>
+         <h4 style="text-align: center;">ice cream</h4>
+
+         </div>
+
+        <div class="mind-box" >
+             <a href="cart4.html"><img class="mind-img" src="./image/coffee.jpg"></a>
+              <h4 style="text-align: center;"> coffee</h4>
+        </div>
+
+       <div class="mind-box">
+            <a href="cart5.html"><img class="mind-img" src="./image/pav bhaji.jpg"></a>
+            <h4 style="text-align: center;"> pav bhaji</h4>
+          </div>
+
+         
+       <div class="mind-box">
+         <a href="cart6.html"><img class="mind-img" src="./image/sandwich.jpg"></a>
+         <h4 style="text-align: center;"> sandwich</h4>
+        </div>  
+           
+         </div>
+
+           <h2>Restaurent with online delivery in Tirunelveli</h2> 
+           <div class="cover">
+              <div class="box">
+                   <a href="offers2.html"><img class="img" src="./image/bni.jpg"></a>
+                   <h3>Nive's Kitchen</h3>
+                   <p>Arabian,Briyani,Chinese,North..<br>Tirunelveli</p>
+              </div>
+
+              <div class="box">
+                <a href="offers.html"><img class="img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/g8xoexoudmkjewpouyki"></a>
+                <h3>Hotel Sri</h3>
+                <p>Sounth indian,Idli,Dosa..<br>Vannarpettai</p>
+              </div>
+
+          <div class="box">
+            <a href="offers3.html"><img class="img" src="./image/burgar.jpg"></a>
+            <h3>English Food Card</h3>
+            <p>Burger,Snacks,American.<br>Vannarpettai</p>
+   
+         </div>
+
+       
+
+       <div class="box" >
+         <a href="offers4.html"><img class="img" src="./image/cake.jpg"></a>
+        <h3>Kalai Bakery</h3>
+        <p>Desserts,Chinese..<br>Tirunelveli</p>
+      </div>
+
+
+       <div class="box">
+         <a href="offers1.html"><img class="img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/dd05a4cf744d4637ad93aa99140612d6"></a>
+         <h3> Sweet Bakes</h3>
+         <p>Sweets,Chocolates,Cakes....<br>Tirunelveli</p>
+       </div>
+    </div>
+
+
+     
+    <div class="cover">
+      <div class="box">
+        <a href="offers3.html"><img class="img" src="./image/chinese.jpg"></a>
+           <h3>Chez Panisse</h3>
+           <p>Momo,Chinese,Fries..<br>Tirunelveli</p>
+      </div>
+
+      <div class="box" >
+        <a href="offers5.html"><img class="img" src="./image/sharwarma.jpg"></a>
+       <h3>Veggie Planet</h3>
+       <p>veg Shawarma,Fries,Pizza<br>Tirunelveli</p>
+     </div>
+
+     <div class="box">
+      <a href="offers6.html"><img class="img" src="./image/juice.jpg"></a>
+    <h3>Juice Booster</h3>
+    <p>Juice,Milkshake,Ice Cream..<br>Vannarpettai</p>
+
+      </div>
+
+      <div class="box">
+        <a href="offers7.html"><img class="img" src="./image/biriyani.jpg"></a>
+          <h3>Bollywood Biryani</h3>
+          <p>Sounth indian,Briyani..<br>Vannarpettai</p>
+       </div>
+
+      <div class="box">
+        <a href="offers8.html"><img class="img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ii6ujrny6ghywh2pljwl"></a>
+            <h3>Canadian Crrunch</h3>
+           <p>Arabian,Briyani,Chinese,North..<br>Tirunelveli</p>
+            </div>
+         </div>
+
+      
+         
+       </div>
+       </div>
+
+    </form>
+    </div>
+</body>
+</html>
